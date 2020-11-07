@@ -6,3 +6,55 @@
         height: 48px;
     }
 }
+
+.profile-resources {
+    
+    li {
+        list-style: none;
+        border-radius: 8px;
+        &:hover {
+            background-color:$anchor-hover-bg;
+            cursor: pointer;
+        }
+
+        a {
+            text-decoration: none;
+            color: $anchors-color;
+
+            &:hover {
+                color: $anchor-link-color-hover;
+            }
+        }
+    }
+}
+
+.my-tags-container {
+
+    .my-tags-header {
+        display: flex;
+        justify-content: space-between;
+
+        a {
+            color: $anchors-color;
+
+            &:hover {
+                background-color:$anchor-hover-bg;
+            }
+            
+        }
+    }
+
+    .my-tags-list {
+        height: 15vh;
+    }
+}
+
+.marketing-aside-left {
+    display: flex;
+    flex-direction: column;
+
+    h4.mk-title {
+        color: $anchor-link-color-hover;
+    }
+
+}
