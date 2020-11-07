@@ -1,4 +1,4 @@
-.columnas {
-    height: 100px;
-    width: 100px;
-}
+@import 'variables';
+@import 'mixins';
+@import 'contenedor-padre';
+@import 'aside-1';

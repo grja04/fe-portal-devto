@@ -1,5 +1,15 @@
-.columnas {
-  height: 100px;
-  width: 100px;
+.contenedor-padre {
+  background-color: #eef0f1;
+}
+
+.profile-aside {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.profile-aside .profile-pic {
+  width: 48px;
+  height: 48px;
 }
 /*# sourceMappingURL=style.css.map */
